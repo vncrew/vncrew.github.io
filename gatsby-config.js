@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/vncrewtool",
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
