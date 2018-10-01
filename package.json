@@ -1,9 +1,10 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Vncrew tools",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nguyen Trung Hieu <trunghieu.nth@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^3.1.2",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
@@ -11,9 +12,13 @@
     "moment": "^2.22.2",
     "rc-time-picker": "^3.4.0",
     "react": "^16.5.1",
+    "react-bootstrap": "^0.32.4",
+    "react-clockpicker": "^0.1.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-moment": "^0.8.1"
+    "react-moment": "^0.8.1",
+    "react-radio-buttons": "^1.2.2",
+    "react-timekeeper": "^1.0.9"
   },
   "keywords": [
     "gatsby"
@@ -24,7 +29,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "gh-pages": "^2.0.0",
